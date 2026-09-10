@@ -1,5 +1,5 @@
 AOI ID,Location,Operations,Crop,LAAR Status 2026-2027,Season,Station,Province,Region,Latitude Trial,Longitude Trial,Latitude Access,Longitude Access,Planting Date (MM/DD/YYYY),Plant Density (plants/ha),Fertilization,Area ( Ha),Field Testing Specialist,Seed Product Agronomist,Visible,Description
-AARY07FACEVN,Acevedo,Contractor,Canola,R5,Early,XL,Buenos Aires,Nucleo,-33.788167,-60.474803,,,05/06/2026,,60 kg MAP + 150 kg UREA + 100 kg Sulfato Amonio,,Romero Cuny,Mazzini,,MIGRATION TEST 3
+AARY07FACEVN,Acevedo,Contractor,Canola,R5,Early,XL,Buenos Aires,Nucleo,-33.788167,-60.474803,,,05/06/2026,,60 kg MAP + 150 kg UREA + 100 kg Sulfato Amonio,,Romero Cuny,Mazzini,,
 AARY07FAMERN,America,Contractor,Canola,R5,Early,XL,Buenos Aires,Oeste,-35.623215,-63.267577,,,05/13/2026,,60 kg MAP + 150 kg UREA + 100 kg Sulfato Amonio,,Antunes,Peralta Martinez,,Pieres en 2025
 AARY07FBAL1N,Balcarce,Contractor,Canola,R5,Early,XL,Buenos Aires,Sudeste,-37.897019,-58.305969,,,06/02/2026,,60 kg MAP + 150 kg UREA + 100 kg Sulfato Amonio,,Cantero,Sarlangue,,
 AARY07FBAL2N,Balcarce 2,Contractor,Canola,R5,Early,XL,Buenos Aires,Sudeste,-37.896932,-58.305857,,,07/01/2026,,60 kg MAP + 150 kg UREA + 100 kg Sulfato Amonio,,Cantero,Sarlangue,,
@@ -280,10 +280,10 @@ NA,Estación Pergamino TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucl
 NA,San Eduardo TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Córdoba,Centro,-33.849841,-62.052843,,,11/15/2026,,Completar,,Mailen Riveira,NA,,
 NA,San Eduardo TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Córdoba,Centro,-33.849841,-62.052843,,,11/15/2026,,Completar,,Mailen Riveira,NA,,
 NA,Ferre TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.118701,-61.204203,,,11/15/2026,,Completar,,Mailen Riveira,NA,,
-NA,America TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Oeste,-35.648676,-63.092277,,,11/15/2026,,Completar,,Yesica Chazarreta,NA,,
+NA,America TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Oeste,-35.648676,-63.092277,,,11/15/2026,,Completar,,Yésica Chazarreta,NA,,
 NA,Marcos Juarez TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Córdoba,Nucleo,-33.116622,-62.198076,,,11/15/2026,,Completar,,Paula Colla,NA,,
-NA,Chivilcoy TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.94975,-60.109261,,,11/15/2026,,Completar,,Yesica Chazarreta,NA,,
-NA,Chivilcoy TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.94975,-60.109261,,,11/15/2026,,Completar,,Yesica Chazarreta,NA,,
+NA,Chivilcoy TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.94975,-60.109261,,,11/15/2026,,Completar,,Yésica Chazarreta,NA,,
+NA,Chivilcoy TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.94975,-60.109261,,,11/15/2026,,Completar,,Yésica Chazarreta,NA,,
 NA,Colonia Videla TCD,SPD-TCD,Corn - Regulated,NA,Late,AC,Córdoba,Centro ,-31.886166,-63.509429,,,11/15/2026,,Completar,,Paula Colla,NA,,Densidad variable
 ACCY02FBOR1T,Boreas 1 (AC station),SPD,Corn,R5; R4; R3; R2; ONE GCA; HYPER,Late,AC,Córdoba,Centro,Completar,Completar,,,,,Alta,,Cano,NA,,
 ACCY02FBOR2T,Boreas 2 (AC station),SPD,Corn,R5; R4; R3; R2 ; HYPER,Late,AC,Córdoba,Centro,Completar,Completar,,,,,Alta,,Cano,NA,,
@@ -302,8 +302,8 @@ NA,La Virginia TCD,SPD-TCD,Corn - Regulated,NA,Late,AN,Tucuman,NOA,-26.807168,-6
 NA,La Cocha TCD,SPD-TCD,Corn - Regulated,NA,Late,AN,Tucuman,NOA,-27.902094,-65.56336,,,12/15/2026,,Completar,,Lourdes Suarez,NA,,
 NA,Cejolao TCD,SPD-TCD,Corn - Regulated,NA,Late,AN,Santiago Del Estero,NEA,-27.494722,-62.306404,,,12/15/2026,,Completar,,Lourdes Suarez,NA,,
 NA,La Paloma TCD (ex Gancedo),SPD-TCD,Corn - Regulated,NA,Late,AN,Chaco,NEA,-27.602041,-61.746403,,,12/15/2026,,Completar,,Lourdes Suarez,NA,,
-NA,Estación Pergamino TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-33.859926,-60.659315,,,11/15/2026,,Completar,,Yesica Chazarreta,NA,,
+NA,Estación Pergamino TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-33.859926,-60.659315,,,11/15/2026,,Completar,,Yésica Chazarreta,NA,,
 NA,Cordoba TCD (Campo Escuela),SPD-TCD,Corn - Regulated,NA,Late,AC,Córdoba,Centro ,-31.485772,-64.005261,,,11/15/2026,,Completar,,Paula Colla,NA,,
 NA,La Virginia TCD,SPD-TCD,Soybean - Stewarded,NA,Early,AN,Tucuman,NOA,Completar,Completar,,,,,,,NA,NA,,
 NA,La Cocha TCD,SPD-TCD,Soybean - Stewarded,NA,Early,AN,Tucuman,NOA,Completar,Completar,,,,,,,NA,NA,,
-NA,Ferre TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.118701,-61.204203,,,11/15/2026,,Completar,,Yesica Chazarreta,NA,,
+NA,Ferre TCD,SPD-TCD,Corn - Regulated,NA,Late,AA,Buenos Aires,Nucleo,-34.118701,-61.204203,,,11/15/2026,,Completar,,Yésica Chazarreta,NA,,
