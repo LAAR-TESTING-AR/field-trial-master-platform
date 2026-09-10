@@ -1106,7 +1106,7 @@ limpiarFiltros.addEventListener(
 );
 
 
-Papa.parse("../Sitios.csv", {
+Papa.parse("../Sitios_test.csv", {
   download: true,
   header: true,
   skipEmptyLines: true,
@@ -1148,7 +1148,7 @@ if (resultado.errors.length) {
 
   error: error => {
     console.error(
-      "Error cargando Sitios.csv:",
+      "Error cargando Sitios_test.csv:",
       error
     );
   }
