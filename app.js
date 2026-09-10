@@ -382,7 +382,7 @@ function agregarLeyendaPremium() {
 }
 
 function cargarSitios() {
-  Papa.parse("Sitios.csv", {
+  Papa.parse("Sitios_test.csv", {
     download: true,
     header: true,
     skipEmptyLines: true,
@@ -414,13 +414,13 @@ setTimeout(() => {
       }
 
       console.log(
-        `${sitios.length} sitios cargados desde Sitios.csv.`
+        `${sitios.length} sitios cargados desde Sitios_test.csv.`
       );
     },
 
     error: error => {
       console.error(
-        "Error al cargar Sitios.csv:",
+        "Error al cargar Sitios_test.csv:",
         error
       );
 
