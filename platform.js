@@ -204,7 +204,7 @@ if (masterAccess) {
   );
 }
 
-Papa.parse("Sitios.csv", {
+Papa.parse("Sitios_test.csv", {
 
   download: true,
 
@@ -228,7 +228,7 @@ Papa.parse("Sitios.csv", {
 
     if (resultado.errors.length) {
       console.warn(
-        "Advertencias leyendo Sitios.csv:",
+        "Advertencias leyendo Sitios_test.csv:",
         resultado.errors
       );
     }
@@ -238,7 +238,7 @@ Papa.parse("Sitios.csv", {
   error: error => {
 
     console.error(
-      "Error cargando Sitios.csv:",
+      "Error cargando Sitios_test.csv:",
       error
     );
 
