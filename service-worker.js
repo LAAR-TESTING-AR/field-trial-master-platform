@@ -7,7 +7,7 @@ const APP_SHELL = [
   
   `${BASE_PATH}platform.html`,
   `${BASE_PATH}platform.js`,
-  `${BASE_PATH}Sitios.csv`,
+  `${BASE_PATH}Sitios_test.csv`,
 
   `${BASE_PATH}planting/`,
   `${BASE_PATH}planting/index.html`,
@@ -214,15 +214,15 @@ self.addEventListener("fetch", event => {
     return;
   }
 
-  /* Sitios.csv: red primero y clave fija sin parametros. */
-  if (url.pathname.endsWith("/Sitios.csv")) {
-    const claveSitios = `${BASE_PATH}Sitios.csv`;
+  /* Sitios_test.csv: red primero y clave fija sin parametros. */
+  if (url.pathname.endsWith("/Sitios_test.csv")) {
+    const claveSitios = `${BASE_PATH}Sitios_test.csv`;
 
     event.respondWith(
       fetch(request, { cache: "no-store" })
         .then(response => {
           if (!response || !response.ok) {
-            throw new Error("No fue posible actualizar Sitios.csv");
+            throw new Error("No fue posible actualizar Sitios_test.csv");
           }
 
           const copia = response.clone();
