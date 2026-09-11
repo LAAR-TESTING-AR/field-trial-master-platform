@@ -83,10 +83,20 @@
         try {
           await window.FieldPhotoSync.sincronizarRegistro(registro.recordId);
           exitosas += 1;
-        } catch (error) {
-          fallidas += 1;
-          console.error("Error al sincronizar", registro.recordId, error);
-        }
+      } catch (error) {
+  fallidas += 1;
+
+  console.error(
+    "Error al sincronizar",
+    registro.recordId,
+    error
+  );
+
+  alert(
+    "ERROR REAL: " +
+    (error?.message || JSON.stringify(error))
+  );
+}
       }
     } finally {
       procesando = false;
