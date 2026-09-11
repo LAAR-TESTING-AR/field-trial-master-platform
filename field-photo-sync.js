@@ -108,7 +108,10 @@
       throw new Error("La fotografía local no es válida.");
     }
 
-    const dataUrl = await blobADataUrl(blob);
+alert("Blob recibido");
+const dataUrl = await blobADataUrl(blob);
+alert("Blob convertido");
+    
     const separador = dataUrl.indexOf(",");
 
     if (separador < 0) {
