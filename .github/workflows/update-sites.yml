@@ -21,26 +21,26 @@ jobs:
         env:
           CSV_BASE64: ${{ github.event.client_payload.csv_base64 }}
         run: |
-          echo "$CSV_BASE64" | base64 --decode > Sitios.csv
+          echo "$CSV_BASE64" | base64 --decode > Sitios_test.csv
 
       - name: Validate CSV
         run: |
-          if [ ! -s Sitios.csv ]; then
-            echo "Sitios.csv is empty"
+          if [ ! -s Sitios_test.csv ]; then
+            echo "Sitios_test.csv is empty"
             exit 1
           fi
 
           echo "CSV generated successfully"
           echo "Number of lines:"
-          wc -l Sitios.csv
-          head -n 2 Sitios.csv
+          wc -l Sitios_test.csv
+          head -n 2 Sitios_test.csv
 
       - name: Commit updated CSV
         run: |
           git config user.name "LAAR Map Automation"
           git config user.email "actions@github.com"
 
-          git add Sitios.csv
+          git add Sitios_test.csv
 
           if git diff --cached --quiet; then
             echo "No changes detected"
