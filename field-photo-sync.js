@@ -240,12 +240,8 @@ alert("Blob convertido");
       const payload = construirPayload(registro, imageBase64);
 
 alert(
-  "URL: " + obtenerUrl()
-);
-
-    window.open(
-  obtenerUrl(),
-  "_blank"
+  "Payload size: " +
+  JSON.stringify(payload).length
 );
     
     const response = await fetch(obtenerUrl(), {
