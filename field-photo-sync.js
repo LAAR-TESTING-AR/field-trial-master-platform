@@ -237,6 +237,12 @@ alert("Blob convertido");
     }
 
     const imageBase64 = await blobABase64(registro.photoBlob);
+
+alert(
+  "Base64 size: " +
+  imageBase64.length
+);
+  
     const payload = construirPayload(registro, imageBase64);
 
 alert(
