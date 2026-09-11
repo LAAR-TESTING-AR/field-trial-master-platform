@@ -125,6 +125,20 @@ btnGuardarSiembra.onclick =
   }
 );
 
+const btnRefreshData =
+  document.getElementById(
+    "btnRefreshData"
+  );
+
+if (btnRefreshData) {
+  btnRefreshData.addEventListener(
+    "click",
+    () => {
+      window.location.reload();
+    }
+  );
+}
+
 const filtroCrop =
   document.getElementById("filtroCrop");
 
