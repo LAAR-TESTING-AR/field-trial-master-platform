@@ -46,9 +46,7 @@ function convertirNumero(valor) {
 }
 
 function esVisible(sitio) {
-  return ["yes", "si", "sí", "true", "1", "visible"].includes(
-    limpiarTexto(sitio.visible).toLowerCase()
-  );
+  return true;
 }
 
 function tieneTrial(sitio) {
