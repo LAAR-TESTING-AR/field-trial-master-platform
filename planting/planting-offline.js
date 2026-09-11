@@ -168,7 +168,9 @@ async function sincronizarSiembrasPendientes() {
           "Siembra sincronizada:",
           siembra.aoiId
         );
-
+setTimeout(() => {
+  cargarSitios();
+}, 70000);
       } catch (error) {
         console.log(
           "La siembra continúa pendiente:",
