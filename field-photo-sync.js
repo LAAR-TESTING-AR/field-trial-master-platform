@@ -243,7 +243,7 @@ alert(
   "Payload size: " +
   JSON.stringify(payload).length
 );
-    
+    alert("LLEGUE AL FETCH");
     const response = await fetch(obtenerUrl(), {
       method: "POST",
       headers: {
