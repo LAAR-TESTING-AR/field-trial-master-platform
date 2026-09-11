@@ -249,7 +249,7 @@ ANFY04NTISLN-ANFY04NTISDN,Tres Isletas,SPD,Sunflower,ONE GCA; R1; R2; R3; IMPACT
 ACFY04NRAFAN,Rafaela,SPD,Sunflower,IMPACT 3R,Early,AC,Santa Fe,Centro,-31.146384,-61.415785,,,09/05/2026,,30 kg Microstar CMB + 60 kg UREA,,Arias,Traggiay,,Ex Gonzalez Moreno
 ACFY04NSFRAN,San Francisco,SPD,Sunflower,IMPACT 3R,Early,AC,Córdoba,Centro,-30.861169,-61.813652,,,,,30 kg Microstar CMB + 60 kg UREA,,Arias,Traggiay,,Ex Trebolares
 NA,La Virginia TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,-26.807168,-64.834319,,,,,,,NA,NA,,
-NA,La Cocha TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,-27.902094,Completar,,,,,,,NA,NA,,
+NA,La Cocha TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,-27.902094,-65.56336,,,,,,,NA,NA,,
 NA,Cejolao TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Santiago Del Estero,NEA,Completar,Completar,,,,,,,NA,NA,,
 NA,Vilelas TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Santiago Del Estero,NEA,Completar,Completar,,,,,,,NA,NA,,
 NA,Gancedo TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Chaco,NEA,Completar,Completar,,,,,,,NA,NA,,
@@ -316,4 +316,4 @@ NA,Colonia Videla TCD,SPD-TCD,Soybean - Regulated,NA,Early,AC,Córdoba,II - 2,-3
 NA,Cordoba TCD (Campo Escuela),SPD-TCD,Soybean - Regulated,NA,Early,AC,Córdoba,II - 2,-31.485772,-64.005261,,,,,,,,,,
 NA,General Cabrera TCD,SPD-TCD,Soybean - Regulated,NA,Early,AC,Córdoba,II - 3,-32.805053,-63.913925,,,,,,,,,,
 NA,La Virginia TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,-26.807168,-64.834319,,,,,,,,,,
-NA,La Cocha TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,,,,,,,,,,,,
+NA,La Cocha TCD,SPD-TCD,Soybean - Regulated,NA,Early,AN,Tucuman,NOA,-27.902094,-65.56336,,,,,,,,,,
