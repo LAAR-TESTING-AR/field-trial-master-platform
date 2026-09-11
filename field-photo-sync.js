@@ -236,6 +236,10 @@
     const imageBase64 = await blobABase64(registro.photoBlob);
     const payload = construirPayload(registro, imageBase64);
 
+alert(
+  "URL: " + obtenerUrl()
+);
+    
     const response = await fetch(obtenerUrl(), {
       method: "POST",
       headers: {
