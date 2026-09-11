@@ -622,3 +622,21 @@ font-size: 28px;
 
   opacity:.95;
 }
+.dashboard-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#btnRefreshData {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  line-height: 1;
+}
+
+#btnRefreshData:hover {
+  opacity: 0.8;
+}
