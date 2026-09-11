@@ -26,7 +26,12 @@ function actualizarDashboardPlataforma(sitios) {
         limpiarTexto(sitio["AOI ID"]) &&
         limpiarTexto(sitio.Location)
     );
-
+console.log(
+  "Total CSV:",
+  sitios.length,
+  "Sitios válidos:",
+  sitiosValidos.length
+);
   const drops =
     sitiosValidos.filter(
       esDrop
