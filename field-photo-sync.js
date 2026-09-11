@@ -248,6 +248,11 @@ alert(
 alert(
   "URL: " + obtenerUrl()
 );
+
+    window.open(
+  obtenerUrl(),
+  "_blank"
+);
     
     const response = await fetch(obtenerUrl(), {
       method: "POST",
